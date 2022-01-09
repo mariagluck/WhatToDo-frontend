@@ -1,0 +1,50 @@
+@media (max-width: 812px) {
+    .broken-heart{
+        height: 40px;
+        font-size: 2em;
+        padding-top: 5px;
+        padding-left: 50px;
+    }
+    .btn-navbar{
+      display: none;
+    }
+}
+
+@media (min-width: 813px) {
+.navbar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        color: black;
+        justify-self: start;
+        cursor: pointer;
+    } 
+    .nav {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }  
+    .btn-navbar {
+        background-color: white;
+        border-radius: 15px;
+        width: 120px;
+        height: 30px;
+        &:hover {
+           color: #fff!important;
+        border-color: #000;
+        background-color: #000;
+        transition: color .25s ease-in-out;
+        transition: background-color .25s ease-in-out; 
+        }
+    
+    }
+    .broken-heart{
+        font-size: 50px;
+    }
+  }
+}
+  
+

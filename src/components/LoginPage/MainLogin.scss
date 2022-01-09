@@ -1,0 +1,16 @@
+@media (max-width: 812px) {
+    .main {
+        margin-top: 50px;
+        display: block;
+        // height: 80vh;
+    } 
+}    
+
+@media (min-width: 813px) {
+    .main {
+        margin-top: 150px;
+        display: flex;
+        justify-content: space-between;
+        height: 600px;
+    }
+}    

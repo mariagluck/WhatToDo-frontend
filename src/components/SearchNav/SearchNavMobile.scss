@@ -1,0 +1,57 @@
+@media (max-width: 812px) {
+    .search-navbar-mobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding: 10px;
+        height: 80px;
+        background-color: #A79FFB;
+    .search-icon-mobile {
+        font-size: 30px;
+        margin-right: 0px;
+    }
+    input {
+        border-radius: 5px;
+        padding: 0 1em 0 0;
+        margin: 0;
+        width: 200px;
+        height: 35px;
+        border: none;
+        padding-left: 10px;
+    }
+    button {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        border:none;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        background-color: #DAD8FD;
+    }
+  }
+}
+
+
+
+@media (min-width: 813px) {
+    .search-navbar-mobile {
+        display: none;
+    }
+    .submit-mobile-search {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        color: black;
+        border: none;
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        background-color: #8e88fd;
+        margin-bottom: 10px;
+      }
+}

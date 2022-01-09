@@ -1,0 +1,30 @@
+@media (max-width: 813px) {
+    .home-icon {
+        color: black;
+        margin-right: 30px;
+        font-size: 2em;
+    }
+    .home-link {
+        display: none;
+    }
+}
+
+@media (min-width: 813px) {
+.back-btn {
+    text-align: right;
+    vertical-align: bottom;
+    color: black;
+    .home-icon {
+        font-size: 1.5em;
+    }
+    span {
+        font-weight: 600;
+        margin-left: 20px;
+        padding: 0;
+        box-shadow: inset 0 -6px 0 0 #a89cfb;
+        &:hover {
+        box-shadow: inset 0 -11px 0 0 #a89cfb;
+        }
+    }
+  }  
+}

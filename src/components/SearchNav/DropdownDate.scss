@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (max-width: 812px) {
+  select,
+  .standard-select,
+  .keyword-mobile {
+    background-color: #d4d1fa;
+    border: none;
+    border-radius: 5px; 
+    width: 240px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding-right: 5px;
+   
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    outline: none;
+
+    option, 
+    .option-date {
+      padding: 5px;
+      background-color:rgb(217, 214, 248);
+      border: none;
+    }
+    .clickDate {
+       color: red;
+    }
+   input[type="date"] {
+      background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+      border: 1px solid #c4c4c4;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      background-color: #fff;
+      padding: 3px 5px;
+      box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+      width: 200px;
+   }
+   [type="date"]::-webkit-inner-spin-button {
+      display: none;
+   }
+   [type="date"]::-webkit-calendar-picker-indicator {
+       opacity: 0;
+   }
+ }
+}
+
+
+@media (min-width: 813px) {
+    select {
+       background-color: white;
+       border: none;
+       border-radius: 5px;
+       padding: 0 1em 0 0;
+       margin: 0;
+       width: 200px;
+       height: 35px;
+       padding-left: 10px;
+       font-family: inherit;
+       font-size: inherit;
+       cursor: inherit;
+       line-height: inherit;
+       outline: none;
+    }
+    .clickDate {
+      color: #847dfc;
+   }
+      input[type="date"] {
+         background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+         border: 1px solid #c4c4c4;
+         border-radius: 5px;
+         margin-bottom: 30px;
+         background-color: #fff;
+         padding: 3px 5px;
+         box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+         width: 200px;
+      }
+      [type="date"]::-webkit-inner-spin-button {
+         display: none;
+      }
+      [type="date"]::-webkit-calendar-picker-indicator {
+          opacity: 0;
+      }
+      
+}      

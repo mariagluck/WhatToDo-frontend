@@ -1,0 +1,65 @@
+@media (max-width: 812px) {
+  .login-text {
+    width: 100vw;
+    margin-top: 0;
+    .login-title-mobile {
+      font-size: 1.5em;
+      margin: 20px auto ;
+      text-align: center;
+      span {
+        padding: 0;
+        box-shadow: inset 0 -12px 0 0 #A89CFB;
+      }
+    }
+    .login-title-desktop {
+       display: none;
+    } 
+    .create-account {
+      position: absolute;
+      top: 570px;
+      left: 55px;
+      font-size: 0.9em;
+    }
+    .arrow {
+      display: none;
+    }
+  }
+}
+@media (min-width: 813px) {
+  .login-text {
+    width: 36%;
+    margin-top: 30px;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        width: 200px;
+    }
+    .login-title-desktop {
+      display: unset;
+    	font-size: 2.5em;
+      width: 200px;
+    }
+    .login-title-mobile {
+      display: none;
+    }
+    .create-account {
+      display: inline-block;
+    }
+    p {
+        color: black;
+        display: inline-block;
+    }
+    
+    
+    .arrow {
+        display: inline-block;
+        margin-left:10px;
+    }
+  
+}
+
+
+
+
+

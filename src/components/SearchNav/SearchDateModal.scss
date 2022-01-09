@@ -1,0 +1,96 @@
+@media (max-width: 812px) {
+  .date-modalContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+
+    .date-modal {
+      width: 400px;
+      height: 300px;
+      background-color: #a39ffd;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+      .date-modal_header {
+        position: relative;
+        border-bottom: 1px solid #dddddd;
+        height: 50px;
+        .date-modal-header-title {
+          text-align: center;
+        }
+        .date-modal-close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          border: none;
+          background: transparent;
+          color: black;
+        }
+      }
+
+      .submit-date {
+        margin-left: 40%;
+        color: black;
+        border: none;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+@media (min-width: 813px) {
+  .date-modalContainer {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+
+    .date-modal {
+      width: 400px;
+      height: 300px;
+      background-color: #a39ffd;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+
+      .date-modal_header {
+        position: relative;
+        border-bottom: 1px solid #dddddd;
+        height: 50px;
+        .date-modal-header-title {
+          text-align: center;
+        }
+        .date-modal-close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          background: transparent;
+          color: black;
+        }
+      }
+
+      .submit-date {
+        width: 100%;
+        color: black;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+          .submit-date:hover {
+            color: black !important;
+          }
+      }
+    }
+  }
+}

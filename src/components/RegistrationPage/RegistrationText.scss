@@ -1,0 +1,53 @@
+@media (max-width: 812px) {
+    .registration-text {
+      width: 100vw;
+      margin-top: 0;
+      .reg-title-mobile {
+        font-size: 1.5em;
+        margin: 20px auto ;
+        text-align: center;
+        span {
+          padding: 0;
+          box-shadow: inset 0 -12px 0 0 #A89CFB;
+        }
+      }
+      .reg-title-desktop {
+         display: none;
+      } 
+      .sign-in {
+        position: absolute;
+        top: 600px;
+        left: 55px;
+        font-size: 0.9em;
+      }
+      .arrow {
+        display: none;
+      }
+    }
+}
+
+  @media (min-width: 813px) {
+
+    .registration-text {
+    width: 50%;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        width: 200px;
+    }
+    .reg-title-mobile {
+      display: none;
+    }
+    
+    p {
+        color: black;
+        display: inline-block;
+    }
+    
+    
+    .arrow {
+        display: inline-block;
+        margin-left:10px;
+    }
+}    

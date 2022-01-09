@@ -1,0 +1,94 @@
+@import "../../scss/variable.scss";
+
+@media (max-width: 760px) {
+  .nav {
+    width: 200px;
+    margin-right: 20px;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 761px) {
+  .nav {
+    width: 100vw;
+    // margin-left: 80px;
+    .btn-navbar {
+      display: unset;
+      background-color: $color-white;
+      border-radius: 15px;
+      width: 150px;
+      height: 30px;
+      margin-right: 20px;
+      &:hover {
+        color: #fff !important;
+        border-color: #000;
+        background-color: #000;
+        transition: color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+      }
+    }
+    .link-navbar {
+      width: 150px;
+      text-decoration: none;
+      color: black;
+      background-color: transparent;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      &:hover {
+        color: #fff !important;
+        transition: color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+      }
+    }
+    .heart-icon {
+      font-size: 0.4em;
+      text-decoration: none;
+      color: black;
+      margin-right: 0;
+      vertical-align: bottom;vertical-align: bottom;
+    }
+  }
+}
+
+@media (min-width: 813px) {
+  .nav {
+    width: 100%;
+    .btn-navbar {
+      display: unset;
+      background-color: $color-white;
+      border-radius: 15px;
+      width: 150px;
+      height: 30px;
+      margin-right: 20px;
+      &:hover {
+        color: #fff !important;
+        border-color: #000;
+        background-color: #000;
+        transition: color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+      }
+    }
+    .link-navbar {
+      width: 150px;
+      text-decoration: none;
+      color: black;
+      background-color: transparent;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      &:hover {
+        color: #fff !important;
+        transition: color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+      }
+    }
+    .heart-icon {
+      font-size: 0.8em;
+      text-decoration: none;
+      color: black;
+      margin-right: 0;
+    }
+  }
+}

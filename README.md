@@ -11,10 +11,10 @@ App to search and list events - final Full Stack Web Dev project @ DCI Berlin, c
   - create event listing
 
 ## Usage
-  - this will serve as the frontend repo: [WhatToDo-frontend](https://github.com/Mxx1029/WhatToDo-frontend)
+  - this will serve as the frontend repo: [WhatToDo-frontend](https://github.com/mariagluck/WhatToDo-frontend)
     - npm i
     - npm start 
-  - backend repo can be found here: [WhatToDo-backend](https://github.com/Mxx1029/WhatToDo-backend)
+  - backend repo can be found here: [WhatToDo-backend](https://github.com/mariagluck/WhatToDo-backend)
     - npm i
     - npm start
   - live version on heroku: [WhatToDo](https://whattodooo.herokuapp.com/)
